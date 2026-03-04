@@ -1,0 +1,31 @@
+{
+  "name": "auth-service-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugamelo19/auth-service-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gugamelo19/auth-service-node/issues"
+  },
+  "homepage": "https://github.com/gugamelo19/auth-service-node#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fastify": "^5.7.4"
+  }
+}
